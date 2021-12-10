@@ -35,14 +35,24 @@ ___
 ## Steps
 ___
 1. Created an environment of the project: a structure of directories, files .gitignore, readme.md, build.gradle.
-
+2. Created the "simple" class WebDriverTest: non-parameterized and affected by using a driver.
+3. Created the provider class consists the initialization logic of a driver and an url.
+4. 
 ## What's new
 ___
-
+1. Selenium
+   1. Set the path to Chromedriver.  
+      `System.setProperty("webdriver.chrome.driver", "src\\test\\resources\\chromedriver.exe");`
+   2. Set the path to Firefoxdrever.
+      `System.setProperty("webdriver.gecko.driver", "src/test/resources/geckodriver.exe");`
 ## Miscellaneous
 ___
 
 ## Resources
 ___
-
+1. [Chromedriver]()
+2. [FirefoxDriver](https://github.com/mozilla/geckodriver)
+2. [The Selenium Browser Automation Project](https://www.selenium.dev/documentation/)
+2. []()
+2. []()
 

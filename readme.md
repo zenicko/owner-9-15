@@ -38,7 +38,7 @@ ___
 2. Created the "simple" class WebDriverTest: non-parameterized and affected by using a driver.
 3. Created the provider class consists the initialization logic of a driver and an url.
 4. Refactoring `class WebDriverProvider`. Created `class WebDriverConfig` which consists the config data.
-
+5. Get properties by the system properties. Refactoring `class WebDriverConfig`.
 
 ## What's new
 ___

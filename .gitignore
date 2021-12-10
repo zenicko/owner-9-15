@@ -1,0 +1,16 @@
+# The system directories
+## include
+.gradle/
+.idea/
+gradle/
+
+# The System files
+gradlew
+gradlew.bat
+
+# The settings Gradle must are had to include in git repo.
+!gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties
+
+
+

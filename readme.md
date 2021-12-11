@@ -40,6 +40,7 @@ ___
 4. Refactoring `class WebDriverProvider`. Created `class WebDriverConfig` which consists the config data.
 5. Get properties by the system properties. Refactoring `class WebDriverConfig`.
 6. Added remote driver in `class WebDriverProvider` and setting property in `class WebDriverConfig`.
+   1. Fixed bugs 
 ## What's new
 ___
 1. Selenium

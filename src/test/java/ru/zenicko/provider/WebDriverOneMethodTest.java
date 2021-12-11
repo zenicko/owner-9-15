@@ -4,8 +4,6 @@ import org.junit.jupiter.api.*;
 import org.openqa.selenium.WebDriver;
 import ru.zenicko.provider.config.WebDriverProvider;
 
-import java.net.URL;
-
 public class WebDriverOneMethodTest {
     private WebDriver driver;
 

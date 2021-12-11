@@ -1,6 +1,5 @@
 package ru.zenicko.provider.config;
 
-import org.openqa.selenium.Capabilities;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebDriverException;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -16,7 +15,6 @@ import static java.lang.Thread.sleep;
 public class WebDriverProvider implements Supplier<WebDriver> {
 
     private WebDriverConfig config;
-    private WebDriver driver;
 
     public WebDriverProvider() {
         config = new WebDriverConfig();
@@ -24,7 +22,7 @@ public class WebDriverProvider implements Supplier<WebDriver> {
 
     @Override
     public WebDriver get() {
-        driver = createWebDriver();
+        WebDriver driver = createWebDriver();
         driver.get(config.getUrl());
 
         return driver;

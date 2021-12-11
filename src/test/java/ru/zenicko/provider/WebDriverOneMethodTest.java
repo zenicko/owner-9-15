@@ -4,6 +4,8 @@ import org.junit.jupiter.api.*;
 import org.openqa.selenium.WebDriver;
 import ru.zenicko.provider.config.WebDriverProvider;
 
+import java.net.URL;
+
 public class WebDriverOneMethodTest {
     private WebDriver driver;
 
@@ -15,8 +17,9 @@ public class WebDriverOneMethodTest {
     @Test
     @DisplayName("The simple test uses anything driver")
     public void testGithubTitleSomeDriver() {
-
         System.out.println(driver.getTitle());
+        System.out.println("GitHub: Where the world builds software · GitHub");
+
         try {
             Assertions.assertEquals(
                     "GitHub: Where the world builds software · GitHub",

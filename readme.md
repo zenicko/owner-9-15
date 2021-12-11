@@ -39,7 +39,7 @@ ___
 3. Created the provider class consists the initialization logic of a driver and an url.
 4. Refactoring `class WebDriverProvider`. Created `class WebDriverConfig` which consists the config data.
 5. Get properties by the system properties. Refactoring `class WebDriverConfig`.
-
+6. Added remote driver in `class WebDriverProvider` and setting property in `class WebDriverConfig`.
 ## What's new
 ___
 1. Selenium
@@ -61,6 +61,10 @@ ___
       `./gradlew test --tests <name class>`
       For example:
       `./gradlew test --tests WebDriverOneMethodTest`
+   2. Start a test with properties 
+      `./gradlew test --tests WebDriverOneMethodTest -Dbrowser=CHROME -Durl=https://github.com`
+   3. Start remote browser
+      ` ./gradlew test --tests WebDriverOneMethodTest -Dremoteurl="<URL REMOTE BROWSER>"`
    
 ## Miscellaneous
 ___

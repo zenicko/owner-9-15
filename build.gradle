@@ -17,6 +17,9 @@ dependencies {
     // Selenium-java
     implementation 'org.seleniumhq.selenium:selenium-java:3.141.59'
 
+    // Selenide = concise API for Selenium WebDriver
+    implementation 'com.codeborne:selenide:5.24.0'
+
     // Owner
     testImplementation 'org.aeonbits.owner:owner:1.0.12'
 }

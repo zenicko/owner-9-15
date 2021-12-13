@@ -34,8 +34,15 @@ ___
 
 ## How to use
 1. Start testing getting api configs by system properties:  
-./gradlew test --tests SomeApiTest -Durl="yandex.ru/api/v1" -Dtoken=12345678
+`./gradlew test --tests SomeApiTest -Durl="yandex.ru/api/v1" -Dtoken=12345678`
 
+2,3. Start local or remote browser by system properties and get config from a file
+   1. Local browser
+
+      `./gradlew test --tests WebConfigTest.checkSettingLocalBrowser -Dtype=local`
+   2. Remote browser
+
+      `./gradlew test --tests WebConfigTest.checkSettingRemoteBrowser -Dtype=remote`         `
 
 ## Steps
 ___
@@ -50,9 +57,11 @@ ___
 7. Used package Owner. Refactoring structure of packages for the hometask
 ### Merge
 ### The branch hometask
-8. Create testing getting api configs by system properties 
-9. Create testing getting api configs by file.properties
-
+**Конфигурация API тестов**
+8. Created testing getting api configs by system properties 
+9. Created testing getting api configs by file.properties
+**Конфигурация WEB тестов**
+10. Created a functionality which getting properties from a file conditional a system property.  
 
 ## What's new
 ___
@@ -79,11 +88,15 @@ ___
       `./gradlew test --tests WebDriverOneMethodTest -Dbrowser=CHROME -Durl=https://github.com`
    3. Start remote browser
       ` ./gradlew test --tests WebDriverOneMethodTest -Dremoteurl="<URL REMOTE BROWSER>"`
-   
+      
 ## Miscellaneous
 ___
 1. `java.lang.UnsupportedOperationException: Can't resolve a Loader for the URL`
-
+2. Remoute selenium
+```
+import org.openqa.selenium.remote.BrowserType;
+public class Browser implements BrowserType {}
+```
 
 ## Resources
 ___
@@ -91,3 +104,5 @@ ___
 2. [Get FirefoxDriver](https://github.com/mozilla/geckodriver)
 3. [The Selenium Browser Automation Project](https://www.selenium.dev/documentation/)
 4. [AssertJ - Rich and fluent assertions for testing for Java](https://assertj.github.io/doc/)
+5. [Set Edge browser](https://docs.microsoft.com/ru-ru/microsoft-edge/webdriver-chromium/?tabs=java)
+6. 

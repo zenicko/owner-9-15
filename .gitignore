@@ -2,17 +2,11 @@
 ## include
 .gradle/
 .idea/
-gradle/
 build/
 
 # The System files
 gradlew
 gradlew.bat
 
-# The settings Gradle must are had to include in git repo.
-!gradle/wrapper/gradle-wrapper.jar
-!gradle/wrapper/gradle-wrapper.properties
-
-src/test/resources/
-
-
+/src/test/resources/geckodriver.exe
+/src/test/resources/chromedriver.exe

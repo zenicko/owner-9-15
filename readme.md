@@ -32,6 +32,11 @@ ___
 В качестве ответа на задание:
 Ссылку на репозиторий в Github и закомиченый конфиг файл.
 
+## How to use
+1. Start testing getting api configs by system properties:  
+./gradlew test --tests SomeApiTest -Durl="yandex.ru/api/v1" -Dtoken=12345678
+
+
 ## Steps
 ___
 1. Created an environment of the project: a structure of directories, files .gitignore, readme.md, build.gradle.
@@ -43,6 +48,10 @@ ___
    1. Fixed bugs 
 ### The branch ownerprop
 7. Used package Owner. Refactoring structure of packages for the hometask
+### Merge
+### The branch hometask
+8. Create testing getting api configs by system properties
+
 
 ## What's new
 ___

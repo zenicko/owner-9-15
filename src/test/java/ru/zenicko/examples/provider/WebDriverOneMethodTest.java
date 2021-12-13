@@ -1,8 +1,8 @@
-package ru.zenicko.provider;
+package ru.zenicko.examples.provider;
 
 import org.junit.jupiter.api.*;
 import org.openqa.selenium.WebDriver;
-import ru.zenicko.provider.config.WebDriverProvider;
+import ru.zenicko.examples.provider.config.WebDriverProvider;
 
 public class WebDriverOneMethodTest {
     private WebDriver driver;

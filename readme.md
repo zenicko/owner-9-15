@@ -41,6 +41,9 @@ ___
 5. Get properties by the system properties. Refactoring `class WebDriverConfig`.
 6. Added remote driver in `class WebDriverProvider` and setting property in `class WebDriverConfig`.
    1. Fixed bugs 
+### The branch ownerprop
+7. Used package Owner. Refactoring structure of packages for the hometask
+
 ## What's new
 ___
 1. Selenium
@@ -75,4 +78,4 @@ ___
 1. [Get Chromedriver](https://chromedriver.chromium.org/downloads)
 2. [Get FirefoxDriver](https://github.com/mozilla/geckodriver)
 3. [The Selenium Browser Automation Project](https://www.selenium.dev/documentation/)
-
+4. [AssertJ - Rich and fluent assertions for testing for Java](https://assertj.github.io/doc/)

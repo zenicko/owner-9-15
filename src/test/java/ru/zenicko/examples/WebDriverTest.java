@@ -1,13 +1,11 @@
-package ru.zenicko.intro;
+package ru.zenicko.examples;
 
 import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.opentest4j.AssertionFailedError;
 
 public class WebDriverTest {
 

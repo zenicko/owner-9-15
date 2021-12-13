@@ -1,10 +1,10 @@
-package ru.zenicko.provider.config;
+package ru.zenicko.examples.provider.config;
 
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.Objects;
 
-public class WebDriverConfig {
+public class WebDriverConfigDeprecated {
 
     public Browser getBrowser() {
         String browser = System.getProperty("browser");

@@ -1,5 +1,6 @@
-package ru.zenicko.provider.config;
+package ru.zenicko.examples.provider.config;
 
+import org.aeonbits.owner.ConfigFactory;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebDriverException;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -17,7 +18,7 @@ public class WebDriverProvider implements Supplier<WebDriver> {
     private WebDriverConfig config;
 
     public WebDriverProvider() {
-        config = new WebDriverConfig();
+        config = ConfigFactory.create(WebDriverConfig.class, System.getProperties());
     }
 
     @Override

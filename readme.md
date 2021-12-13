@@ -50,7 +50,8 @@ ___
 7. Used package Owner. Refactoring structure of packages for the hometask
 ### Merge
 ### The branch hometask
-8. Create testing getting api configs by system properties
+8. Create testing getting api configs by system properties 
+9. Create testing getting api configs by file.properties
 
 
 ## What's new
@@ -81,6 +82,8 @@ ___
    
 ## Miscellaneous
 ___
+1. `java.lang.UnsupportedOperationException: Can't resolve a Loader for the URL`
+
 
 ## Resources
 ___
